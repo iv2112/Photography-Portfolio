@@ -1,0 +1,1 @@
+Photography is an art. An art which captures the most beautiful of memories and makes people reminisce about the times when they were happiest. This portfolio has been made to share that beauty with others. 
