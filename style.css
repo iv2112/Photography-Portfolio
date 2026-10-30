@@ -1,0 +1,282 @@
+h1 {
+  margin-top: 30px;
+  text-align: center;
+  font-family: cursive;
+  font-size: 41px;
+  color: rgb(107, 33, 73);
+  opacity: 0.95;
+  transition: font-size 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+h1:hover {
+  font-size: 45px;
+}
+
+h2 {
+  margin-top: 30px;
+  text-align: center;
+  font-family: cursive;
+  font-size: 34px;
+  color: rgb(107, 33, 73);
+  opacity: 0.95;
+  transition: font-size 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+h2:hover {
+  font-size: 38px;
+}
+
+body {
+  border-width: 2px;
+  border-style: dashed;
+  border-color: rgb(107, 33, 73);
+}
+
+hr {
+  border-width: 1px;
+  border-style: dashed;
+  border-color: rgb(107, 33, 73);
+}
+
+.mail,
+.insta,
+.behance {
+  color: rgb(107, 33, 73);
+  text-decoration: none;
+}
+
+.mail:hover,
+.insta:hover,
+.behance:hover {
+  color: rgb(107, 33, 73);
+  text-decoration: underline;
+}
+
+.mail:active,
+.insta:active,
+.behance:active {
+  color: rgb(107, 33, 73);
+  text-decoration: none;
+}
+
+.mail:visited,
+.insta:visited,
+.behance:visited {
+  color: rgb(107, 33, 73);
+  text-decoration: none;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 0.78fr;
+}
+
+.description {
+  border-style: dotted;
+  border-width: 3px;
+  border-color: rgb(244, 238, 233);
+  margin-left: 220px;
+  width: 350px;
+  margin-top: 100px;
+  font-size: 17.25px;
+  background-color: rgb(107, 33, 73);
+  color: rgb(244, 238, 233);
+  padding-top: 34px;
+  padding-bottom: 31px;
+  padding-left: 38px;
+  padding-right: 42px;
+  border-radius: 17px;
+  opacity: 0.95;
+}
+
+.xoxo {
+  text-align: right;
+  padding-right: 40px;
+}
+
+.about,
+.more-me {
+  line-height: 1.45;
+}
+
+.more {
+  border-style: dotted;
+  border-width: 3px;
+  border-color: rgb(107, 33, 73);
+  width: 350px;
+  margin-top: 100px;
+  font-size: 17.25px;
+  background-color: rgb(244, 238, 233);
+  color: rgb(107, 33, 73);
+  padding-top: 34px;
+  padding-bottom: 31px;
+  padding-left: 38px;
+  padding-right: 42px;
+  opacity: 0.95;
+  border-radius: 17px;
+}
+
+.description:hover,
+.more:hover {
+  box-shadow: 6px 9px 12px 6px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-main {
+  display: flex;
+  justify-content: center;
+}
+
+.spring {
+  position: relative;
+  width: 1000px;
+  max-width: 95%;
+  height: 560px;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.15), 0 0 15px rgba(0, 0, 0, 0.5);
+  background-color: rgb(244, 238, 233);
+  border: 1px solid rgb(244, 238, 233);
+  margin-top: 95px;
+  margin-bottom: 75px;
+}
+
+.slider-a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.pic-a,
+.pic-b,
+.pic-c,
+.pic-d,
+.pic-e {
+  min-width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.pic-a img,
+.pic-b img,
+.pic-c img,
+.pic-d img,
+.pic-e img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-a-para,
+.img-b-para,
+.img-c-para,
+.img-d-para,
+.img-e-para {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: rgb(244, 238, 233);
+  padding: 40px 30px 55px 30px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.45) 70%, transparent 100%);
+}
+
+.img-a-para h3,
+.img-b-para h3,
+.img-c-para h3,
+.img-d-para h3,
+.img-e-para h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  transition: font-size 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.img-a-para h3:hover,
+.img-b-para h3:hover,
+.img-c-para h3:hover,
+.img-d-para h3:hover,
+.img-e-para h3:hover {
+  font-size: 33px;
+}
+
+.img-a-para p,
+.img-b-para p,
+.img-c-para p,
+.img-d-para p,
+.img-e-para p {
+  font-size: 18px;
+  color: rgb(242, 230, 220);
+  cursor: pointer;
+}
+
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.3);
+  color: rgb(255, 255, 255);
+  border: none;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  z-index: 10;
+  backdrop-filter: blur(4px);
+}
+
+.nav:hover {
+  background-color: rgba(255, 255, 255, 0.95);
+  color: rgb(30, 29, 29);
+  transform: translateY(-50%) scale(1.08);
+}
+
+.prev {
+  left: 20px;
+}
+
+.next {
+  right: 20px;
+}
+
+.nav-dots {
+  position: absolute;
+  bottom: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 12px;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 8px 16px;
+  border-radius: 20px;
+  backdrop-filter: blur(4px);
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, width 0.3s ease, transform 0.3s ease;
+}
+
+.dot:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  transform: scale(1.2);
+}
+
+.dot.active {
+  background-color: white;
+  width: 28px;
+  border-radius: 6px;
+}
